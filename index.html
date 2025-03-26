@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohitha BN | VLSI Engineer</title>
+    <style>
+        :root {
+            --primary: #2d2d2d;
+            --secondary: #586069;
+            --accent: #0366d6;
+            --bg: #ffffff;
+            --card-bg: #f6f8fa;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--primary);
+            background-color: var(--bg);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 30px;
+            border: 5px solid var(--card-bg);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            color: var(--primary);
+        }
+        
+        .subtitle {
+            color: var(--secondary);
+            margin: 5px 0 10px 0;
+            font-size: 18px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+        
+        .contact-item i {
+            margin-right: 5px;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+        
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .job-title {
+            font-weight: 600;
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .company {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .date {
+            color: var(--secondary);
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background-color: var(--card-bg);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .avatar {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Replace with your actual image -->
+        <img src="https://via.placeholder.com/120" alt="Rohitha BN" class="avatar">
+        <div>
+            <h1>Rohitha BN</h1>
+            <p class="subtitle">VLSI Engineer | Hardware Design Specialist</p>
+            <div class="contact-info">
+                <a href="https://github.com/BnRohitha" class="contact-item" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/rohitha-bn-776909215/" class="contact-item" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <span class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i> Bengaluru, India
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <p>M.Tech in VLSI (Expected 2026) I am a dedicated VLSI Engineer with a passion for Designing and implementation . Currently pursuing my M.Tech in Very Large-Scale Integration (VLSI) at GITAM University</p> I combine academic rigor with hands-on industry experience from my tenure at Capgemin.</p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="card">
+            <h3 class="job-title">Associate Engineer</h3>
+            <a href="https://www.capgemini.com/" class="company" target="_blank">Capgemini</a>
+            <p class="date">OCT 2022 - FEB 2024 | Bengaluru, India</p>
+            <ul>
+                <li>Achieved successful outcomes by maintaining accurate documentation and meeting strict deadlines.</li>
+                <li>Captured technical schematics for use in project planning and execution.</li>
+                <li>Designed ethernet component circuits and printed circuit board stack up and PCB area Analysis.</li>
+                <li>Created block diagrams and completed interfacing components & Data sheet observations.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Implementation of Digital Phase Lock Loop using CMOS Technology</h3>
+            <p>Used for frequency synthesizer circuits to synchronize output oscillator signals with reference signals. Focused on timing alignment even when frequencies match but waveform phases differ.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Design and Implementation of Low Power SOC Memory BIST</h3>
+            <p>Developed a Built-In Self-Test (BIST) mechanism for system-on-chip (SoC) memory with focus on low power consumption and efficient fault detection.</p>
+        </div>
+        
+        <div class="card">
+            <h3>Verilog Code for Arithmetic Logic Unit</h3>
+            <p>Designed and verified different operations of Arithmetic and Logical Unit with FPGA kit implementation on Xilinx board.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Masters of Technology in VLSI</h3>
+            <p>Gitam University Bengaluru | Expected May 2026</p>
+        </div>
+        
+        <div class="card">
+            <h3>Bachelor of Technology in Electronics and Communication Engineering</h3>
+            <p>Swarnandhra College of Engineering and Technology | 2018 - 2022</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span class="skill">C Programming</span>
+            <span class="skill">Verilog</span>
+            <span class="skill">VHDL</span>
+            <span class="skill">MATLAB</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Multisim</span>
+            <span class="skill">Cadence</span>
+            <span class="skill">Top-Spice</span>
+            <span class="skill">LT-Spice</span>
+            <span class="skill">CMOS Technology</span>
+            
+        </div>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <div class="card">
+            <ul>
+                <li>Worked as a School Representative (2015-2016)</li>
+                <li>Acharana Charitable Trust Volunteer: Conducted multiple successful events during college (2019-2022)</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
